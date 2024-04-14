@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    width: 100%;
+    border-top: 1px solid #DCDCDC;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   
+    background-color: #fff;
+}
+
+.foot1, .itms1, .itms2, .itms3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.itms1, .itms2 {
+    border-right: 1px solid #DCDCDC;
+    padding: 0rem 1rem; 
+}
+
+.itms3 {
+    padding: 0rem 1rem; 
+}
